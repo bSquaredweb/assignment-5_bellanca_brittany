@@ -1,3 +1,17 @@
+/*
+Color Palette
+#F5DC93 - light yellow
+#F6D677 - dark yellow
+#B64791 - purple
+#F7F7F7 - white
+#1D2D44 - dark blue
+#0D1321 - black
+*/
+
+::selection {
+  background-color: #B64791;
+}
+
 body {
   background-color: #F7F7F7;
 }
@@ -14,11 +28,11 @@ h1, h2 {
 
 p, a {
   color: #0D1321;
-  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #B64791;
 }
 
 img {
@@ -26,16 +40,41 @@ img {
   max-width: 640px;
 }
 
+.main__article {
+  transition: .5s;
+}
+
+.button {
+  color: #B64791;
+  padding: 10px;
+  display: inline-flex;
+  border: 2px solid #B64791;
+  border-radius: 3px;
+  transition: .2s;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #B64791;
+  color: #F7F7F7;
+  transition: .2s;
+}
+
 .text--white {
-  color: #FFFFFF;
+  color: #F7F7F7;
+}
+
+.text--white:hover {
+  color: #F6D677;
 }
 
 .yellow {
-  background-color: #f6d677;
+  background-color: #F5DC93;
 }
 
 .ouch {
-  background-color: #b64791;
+  background-color: #B64791;
   color: white;
   font-size: 20px;
   font-weight: bold;
