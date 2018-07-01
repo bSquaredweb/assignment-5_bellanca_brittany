@@ -1,0 +1,22 @@
+body {
+  background-color: #F7F7F7;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #1D2D44;
+}
+
+p {
+  font-color: #0D1321;
+}
+
+img {
+  width: 100%;
+  max-width: 640px;
+}
