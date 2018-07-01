@@ -4,7 +4,7 @@ var button = document. getElementsByClassName('button')[0];
 var article1 = document.getElementsByTagName('article')[0];
 
 // listening for: click on "button"; upon hearing: the background color will be removed
-button.addEventListener('click', function() {
+button.addEventListener('mouseenter', function() {
     article1.classList.remove('yellow')
 });
 
@@ -30,6 +30,3 @@ pexelsLink.addEventListener('dblclick', function() {
     var theSpot = document.getElementsByTagName('article')[1];
     var theRightSpot = theSpot.getElementsByTagName('p')[0].appendChild(ouch);
 });
-
-
-// even though there are four Event Listeners, there are three that are unique, per requirements
