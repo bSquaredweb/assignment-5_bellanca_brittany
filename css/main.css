@@ -12,11 +12,33 @@ h1, h2 {
   color: #1D2D44;
 }
 
-p {
-  font-color: #0D1321;
+p, a {
+  color: #0D1321;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 img {
   width: 100%;
   max-width: 640px;
+}
+
+.text--white {
+  color: #FFFFFF;
+}
+
+.yellow {
+  background-color: #f6d677;
+}
+
+.ouch {
+  background-color: #b64791;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 1.4;
 }
