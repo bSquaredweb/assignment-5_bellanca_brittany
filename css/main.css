@@ -1,8 +1,45 @@
+:focus {
+  outline-color: #BF1010;
+}
+
 body {
-  background-color: beige;
+  background-color: #07224A;
+  color: #FFFFFF;
+  font-size: 20px;
 }
 
 .container {
-  width: 1000px;
+  width: 500px;
   margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+label {
+  margin-bottom: 2px;
+}
+
+input, textarea {
+  margin-bottom: 30px;
+  color: #BF0010;
+}
+
+textarea {
+  height: 130px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  border: 2px solid #BF1010;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type="submit"]:hover {
+  color: #FFFFFF;
+  background-color: #BF1010;
 }
