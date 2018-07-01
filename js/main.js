@@ -8,7 +8,7 @@ heading.addEventListener('click', function() {
 });
 
 
-// Another method that worked
+// Another method that works!
 // var heading = document.getElementById('h1');
 //
 // heading.addEventListener('click', function(event) {
